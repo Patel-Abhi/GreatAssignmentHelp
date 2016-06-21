@@ -1,0 +1,4 @@
+D:\MyProject\GreatAssignmentHelp\GreatAssignmentHelp.Core\bin\Debug\GreatAssignmentHelp.Core.dll
+D:\MyProject\GreatAssignmentHelp\GreatAssignmentHelp.Core\bin\Debug\GreatAssignmentHelp.Core.pdb
+D:\MyProject\GreatAssignmentHelp\GreatAssignmentHelp.Core\obj\Debug\GreatAssignmentHelp.Core.dll
+D:\MyProject\GreatAssignmentHelp\GreatAssignmentHelp.Core\obj\Debug\GreatAssignmentHelp.Core.pdb

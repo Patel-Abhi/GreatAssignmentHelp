@@ -1,0 +1,173 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <title>Assignment Help | Assignment Writing Help in US</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Great Assignment Help offers Online Assignment Help and Assignment Writing services in Australia and US. Paper will written by US and Australian Experts" />
+    <meta name="keywords" content="Assignment Help,Assignment Help Online,Online Assignment Help,Buy Assignment Help,Cheap Assignment Help,Need Assignment Help,Assignment Writng Help,Assignment Writing Service,Assignment Expert," />
+    <meta name="author" content="href=http://www.greatassignmenthelp.com/" />
+    <meta name="Copyright" content="Copyright 2016 @ greatassignmentHelp.com" />
+    <meta name="distribution" content="Global" />
+    <link rel="canonical" href="http://www.greatassignmenthelp.com/" />
+    <link runat="server" rel="shortcut icon" href="Images/favicon.png" type="image/x-icon" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <asp:PlaceHolder runat="server">
+        <script src="<%: ResolveUrl("~/Scripts/modernizr-2.6.2.js") %>"></script>
+        
+    </asp:PlaceHolder>
+    <meta name="viewport" content="width=device-width" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <asp:ScriptReference Name="jquery" />
+            </Scripts>
+        </asp:ScriptManager>
+        <header>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p class="site-title">
+                        <a runat="server" href="~/">
+                            <img src="/Images/img-logo.png" style="width: 230px; border: none; position: relative; bottom: 7px;" />
+                        </a>
+                    </p>
+                </div>
+                <div class="float-right">
+                    <section id="login">
+                        <asp:LoginView runat="server" ViewStateMode="Disabled">
+                            <AnonymousTemplate>
+                                <ul>
+                                    <li><a id="registerLink" runat="server" href="~/Account/Register">Register</a></li>
+                                    <li><a id="loginLink" runat="server" href="~/Account/Login">Log in</a></li>
+                                </ul>
+                            </AnonymousTemplate>
+                            <LoggedInTemplate>
+                                <p>
+                                    Hello, <a runat="server" class="username" href="~/Account/Manage" title="Manage your account">
+                                        <asp:LoginName runat="server" CssClass="username" />
+                                    </a>!
+                                <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" />
+                                </p>
+                            </LoggedInTemplate>
+                        </asp:LoginView>
+                    </section>
+                    <nav id="primary_nav_wrap">
+                        <ul id="menu">
+                            <li  class="current-menu-item"><a runat="server" href="~/">Home</a></li>
+                            <li><a runat="server" href="~/About">About Us</a></li>
+                            <li>
+                                <a href="Services.aspx" accesskey="2" title="">Services</a>
+                                <ul id="sub-menu">
+                                    <li><a href="#">Law Assignment Help</a></li>
+                                    <li><a href="#">Java Assignment Help</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="Prices.aspx" accesskey="3" title="">Prices</a></li>
+                            <li><a href="OrderNow.aspx" accesskey="4" title="">Order Now</a></li>
+                            <li><a href="Blog.aspx" accesskey="5" title="">Blog</a></li>
+                            
+                            <li><a runat="server" href="~/Contact">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+            <section class="content-wrapper main-content clear-fix">
+                <asp:ContentPlaceHolder runat="server" ID="MainContent">                    
+                </asp:ContentPlaceHolder>
+            </section>
+            
+        </div>
+        <div id="priceCal">
+                <div class="currency">
+                    <span>Currency</span>
+                    <ul class="currency-name">
+                        <li class="currencyVal" data-value="15" data-text="USD">USD</li>
+                        <li class="currencyVal" data-value="25" data-text="GBP">GBP</li>
+                        <li class="currencyVal" data-value="35" data-text="AUD">AUD</li>
+                        <li class="currencyVal" data-value="45" data-text="SGD">SGD</li>
+                        <li class="currencyVal" data-value="55" data-text="NZD">NZD</li>
+                    </ul>
+                </div>
+                <div class="deadLine">
+                    <span>Deadline</span>
+                    <ul>
+                        <li class="timeDuration" data-value="0">1 Day</li>
+                        <li class="timeDuration" data-value="10">2 Days</li>
+                        <li class="timeDuration" data-value="20">3 Days</li>
+                        <li class="timeDuration" data-value="30">4-6 Days</li>
+                        <li class="timeDuration" data-value="40">7-10 Days</li>
+                        <li class="timeDuration" data-value="50">>10 Days</li>
+                    </ul>
+                </div>
+                <div class="page-words">
+                    <div class="page-count">
+                        <p>Pages</p>
+                        <span id="pageCountDesc"><b>&ndash;</b></span>
+                        <input type="number" id="txtPageCount" min="1" />
+                        <span id="pageCountInc"><b>+</b></span>
+                    </div>
+                    <div class="approx-price">
+                        <p id="estPrice">Approx Price: </p>
+                        <span id="currencyName">USD</span>
+                    </div>
+                </div>
+            </div>
+
+        <div id="footer-links">
+
+            <div class="link-area">
+                <h3 class="H">Greatassignmenthelp.com</h3>
+                <a href="#">About us</a><br />
+                <a href="#">How it work</a><br />
+                <a href="#">Services</a><br />
+                <a href="#">Review</a><br />
+                <a href="#">Expert</a><br />
+                <a href="#">Contact us</a><br />
+                <a href="# ">Order Now</a><br />
+                <a href="#">Prices</a><br />
+            </div>
+
+
+            <div class="link-area">
+                <h3 class="H">Our Policy</h3>
+                <a href="../ucload.aspx?pn=pp">Privacy Policy</a><br />
+                <a href="../ucload.aspx?pn=tc">Terms & Condition</a><br />
+                <a href="../ucload.aspx?pn=rp">Refund Policy</a><br />
+                <a href="#">Offers</a><br />
+                <a href="../ucload.aspx?pn=faq">FAQ.</a><br />
+                <a href="#">Blog</a><br />
+            </div>
+            <div class="link-area">
+                <h3 class="H">Social </h3>
+                <a href="https://www.facebook.com/greatassignmenthelpus" target="_blank">Facebook</a><br />
+                <a href="https://twitter.com/AssignmentGreat" target="_blank">twitter</a><br />
+                <a href="https://plus.google.com/b/116254671734242670318/116254671734242670318?gmbpt=true&hl=en" target="_blank">Google +</a><br />
+                <a href="http://www.greatassignmenthelp.blogspot.com" target="_blank">Blogger</a>
+            </div>
+            <div class="link-area">
+                <h3 class="H">Services</h3>
+                <a href="#">Management Assignment</a><br />
+                <a href="#">Law Assignment Help</a><br />
+                <a href="#">Care-studies</a><br />
+                <a href="#">HR Assignment Help</a><br />
+                <a href="#">Marketing Assignment Help</a><br />
+                <a href="#">Chemestry Assignment Help</a><br />
+                <a href="#">Math Assignment Help</a><br />
+                <a href="#">Essay Writing Help</a><br />
+            </div>
+        </div>
+        <footer>
+            <span style="display: block; margin: 0 auto; width: 250px; border: 1px solid red; color: #fff; padding: 3px 0;">Hit Counter : <%=Application[0].ToString() %></span>
+            <p style="letter-spacing: 1px; font-size: 0.90em; color: rgba(255,255,255,0.6)">&copy;<%=System.DateTime.Now.Year.ToString() %>. All rights reserved. | <a href="http://www.greatassignmenthelp.com">GreatAssignmentHelp</a> | Design by <a href="#" rel="nofollow">Jordan</a>.</p>
+        </footer>
+    </form>
+</body>
+</html>
