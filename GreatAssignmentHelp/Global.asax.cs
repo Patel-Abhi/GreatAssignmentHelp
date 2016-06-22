@@ -14,7 +14,7 @@ namespace GreatAssignmentHelp
         {
             Application["HitCounter"] = "2000";
             // Code that runs on application startup
-            AuthConfig.RegisterOpenAuth();
+            //AuthConfig.RegisterOpenAuth();
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)
