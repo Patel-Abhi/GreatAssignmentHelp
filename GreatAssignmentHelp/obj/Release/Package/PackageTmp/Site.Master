@@ -15,8 +15,7 @@
     <link runat="server" rel="shortcut icon" href="Images/favicon.png" type="image/x-icon" />
     <link href="~/Content/Site.css" rel="stylesheet" />
     <asp:PlaceHolder runat="server">
-        <script src="<%: ResolveUrl("~/Scripts/modernizr-2.6.2.js") %>"></script>
-        
+        <script src="<%: ResolveUrl("~/Scripts/jquery-1.8.2.js") %>"></script>
     </asp:PlaceHolder>
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
@@ -24,9 +23,9 @@
 <body>
     <form runat="server">
         <asp:ScriptManager runat="server">
-            <Scripts>
+<%--            <Scripts>
                 <asp:ScriptReference Name="jquery" />
-            </Scripts>
+            </Scripts>--%>
         </asp:ScriptManager>
         <header>
             <div class="content-wrapper">
@@ -42,13 +41,13 @@
                         <asp:LoginView runat="server" ViewStateMode="Disabled">
                             <AnonymousTemplate>
                                 <ul>
-                                    <li><a id="registerLink" runat="server" href="~/Account/Register">Register</a></li>
-                                    <li><a id="loginLink" runat="server" href="~/Account/Login">Log in</a></li>
+                                    <li><a id="registerLink" href="/Register.aspx">Register</a></li>
+                                    <li><a id="loginLink" runat="server" href="/Login.aspx">Log in</a></li>
                                 </ul>
                             </AnonymousTemplate>
                             <LoggedInTemplate>
                                 <p>
-                                    Hello, <a runat="server" class="username" href="~/Account/Manage" title="Manage your account">
+                                    Hello, <a runat="server" class="username" href="Account/Manage.aspx" title="Manage your account">
                                         <asp:LoginName runat="server" CssClass="username" />
                                     </a>!
                                 <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" />
@@ -59,17 +58,21 @@
                     <nav id="primary_nav_wrap">
                         <ul id="menu">
                             <li  class="current-menu-item"><a runat="server" href="~/">Home</a></li>
-                            <li><a runat="server" href="~/About">About Us</a></li>
+                            <li><a runat="server" href="About.aspx">About Us</a></li>
                             <li>
                                 <a href="Services.aspx" accesskey="2" title="">Services</a>
                                 <ul id="sub-menu">
-                                    <li><a href="#">Law Assignment Help</a></li>
-                                    <li><a href="#">Java Assignment Help</a></li>
+                                    <li><a href="/Law.aspx">Law Assignment Help</a></li>
+                                    <li><a href="/Java.aspx">Java Assignment Help</a></li>
+                                    <li><a href="/Marketing.aspx">Marketing Assignment Help</a></li>
+                                    <li><a href="/Computer.aspx">Computer Assignment Help</a></li>
+                                    <li><a href="/Chemistry.aspx">Chemistry Assignment Help</a></li>
+                                    <li><a href="/Programming.aspx">Programming Assignment Help</a></li>
                                 </ul>
                             </li>
-                            <li><a href="Prices.aspx" accesskey="3" title="">Prices</a></li>
-                            <li><a href="OrderNow.aspx" accesskey="4" title="">Order Now</a></li>
-                            <li><a href="Blog.aspx" accesskey="5" title="">Blog</a></li>
+                            <li><a href="../Prices.aspx" accesskey="3" title="">Prices</a></li>
+                            <li><a href="../OrderNow.aspx" accesskey="4" title="">Order Now</a></li>
+                            <li><a href="../Blog.aspx" accesskey="5" title="">Blog</a></li>
                             
                             <li><a runat="server" href="~/Contact">Contact Us</a></li>
                         </ul>

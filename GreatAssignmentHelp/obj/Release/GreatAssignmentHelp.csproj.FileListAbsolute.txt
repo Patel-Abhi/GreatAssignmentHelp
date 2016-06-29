@@ -25,3 +25,4 @@ D:\MyProject\GreatAssignmentHelp\GreatAssignmentHelp\bin\Microsoft.AspNet.Member
 D:\MyProject\GreatAssignmentHelp\GreatAssignmentHelp\bin\Microsoft.AspNet.FriendlyUrls.xml
 D:\MyProject\GreatAssignmentHelp\GreatAssignmentHelp\obj\Release\GreatAssignmentHelp.dll
 D:\MyProject\GreatAssignmentHelp\GreatAssignmentHelp\obj\Release\GreatAssignmentHelp.pdb
+D:\MyProject\GreatAssignmentHelp\GreatAssignmentHelp\obj\Release\GreatAssignmentHelp.csprojResolveAssemblyReference.cache

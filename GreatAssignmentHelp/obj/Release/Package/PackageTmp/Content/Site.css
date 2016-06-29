@@ -227,8 +227,8 @@ ul#menu {
         float: left;
         margin: 0;
         padding: 0;
-        text-align:center;
-        width:95px;
+        text-align: center;
+        width: 95px;
     }
 
         #primary_nav_wrap ul li.current-menu-item {
@@ -250,11 +250,12 @@ ul#menu {
 
         #primary_nav_wrap ul ul li a {
             float: none;
-            width: 200px;
+            width: 210px;
             display: block;
-            font-size: 14px;
+            font-size: 13px;
             background: #e80c4d;
-            padding: 4px 5px 4px 0;
+            padding: 6px 0px 6px 5px;
+            text-align: left;
             border-bottom: 2px solid green;
         }
 
@@ -377,18 +378,19 @@ ul#menu {
 
 /*                                   Footer Links                                           */
 
-#footer-links{
-    width:80%;
-    margin:0 auto;
+#footer-links {
+    width: 80%;
+    margin: 0 auto;
 }
 
-#footer-links h3{
-    font-size:14px;
-}
-#footer-links .link-area{
-    width:25%;
-    float:left;    
-}
+    #footer-links h3 {
+        font-size: 14px;
+    }
+
+    #footer-links .link-area {
+        width: 25%;
+        float: left;
+    }
 
 
 

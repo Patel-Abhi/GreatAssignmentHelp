@@ -10,7 +10,9 @@
             width: 100%;
             padding: 0px;
         }
-
+        .container a{
+            text-decoration:none;
+        }
         .section {
             width: 45%;
             margin: 10px;
@@ -36,12 +38,12 @@
         }
     </style>
     <div class="container">
-        <div class="section" data-val="Law">Law Assignment Help</div>
-        <div class="section" data-val="Java">Java Assignment Help</div>
-        <div class="section" data-val="Marketing">Marketing Assignment Help</div>
-        <div class="section" data-val="Computer">Computer Assignment Help</div>
-        <div class="section" data-val="Chemistry">Chemistry Assignment Help</div>
-        <div class="section" data-val="Programming">Programming Assignment Help</div>
+        <a href="/Law.aspx"><div class="section" data-val="Law">Law Assignment Help</div></a>
+        <a href="/Java.aspx"><div class="section" data-val="Java">Java Assignment Help</div></a>
+        <a href="/Marketing.aspx"><div class="section" data-val="Marketing">Marketing Assignment Help</div></a>
+        <a href="/Computer.aspx"><div class="section" data-val="Computer">Computer Assignment Help</div></a>
+        <a href="/Chemistry.aspx"><div class="section" data-val="Chemistry">Chemistry Assignment Help</div></a>
+        <a href="/Programming.aspx"><div class="section" data-val="Programming">Programming Assignment Help</div></a>
     </div>
     <script type="text/javascript">
         var elm = document.getElementsByClassName('section');

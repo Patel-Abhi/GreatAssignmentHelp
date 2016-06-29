@@ -61,7 +61,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/14/2016 01:30:48</publishTime>
     </File>
     <File Include="bin/GreatAssignmentHelp.dll">
-      <publishTime>06/06/2016 00:48:54</publishTime>
+      <publishTime>06/24/2016 00:01:53</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
       <publishTime>05/14/2016 01:30:49</publishTime>
@@ -79,7 +79,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/18/2016 00:28:41</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>05/29/2016 00:36:57</publishTime>
+      <publishTime>06/23/2016 00:56:19</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
       <publishTime>05/14/2016 01:30:44</publishTime>
@@ -286,10 +286,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/14/2016 01:30:44</publishTime>
     </File>
     <File Include="Site.Master">
-      <publishTime>06/06/2016 00:47:58</publishTime>
+      <publishTime>06/23/2016 00:59:41</publishTime>
     </File>
     <File Include="Site.Mobile.Master">
       <publishTime>06/05/2016 22:14:42</publishTime>
+    </File>
+    <File Include="StaticPages/Chemistry.aspx">
+      <publishTime>06/22/2016 23:50:25</publishTime>
+    </File>
+    <File Include="StaticPages/Computer.aspx">
+      <publishTime>06/22/2016 23:50:24</publishTime>
+    </File>
+    <File Include="StaticPages/Java.aspx">
+      <publishTime>06/22/2016 23:50:35</publishTime>
+    </File>
+    <File Include="StaticPages/Law.aspx">
+      <publishTime>06/22/2016 23:50:47</publishTime>
+    </File>
+    <File Include="StaticPages/Marketing.aspx">
+      <publishTime>06/22/2016 23:51:02</publishTime>
+    </File>
+    <File Include="StaticPages/Programming.aspx">
+      <publishTime>06/22/2016 23:51:17</publishTime>
+    </File>
+    <File Include="StaticPages/Services.aspx">
+      <publishTime>06/24/2016 00:00:33</publishTime>
     </File>
     <File Include="ucload.aspx">
       <publishTime>05/30/2016 00:40:38</publishTime>
