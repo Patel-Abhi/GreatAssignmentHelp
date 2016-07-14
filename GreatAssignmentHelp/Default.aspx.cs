@@ -13,5 +13,10 @@ namespace GreatAssignmentHelp
         {
 
         }
+
+    //    protected void Page_PreInit(object sender, EventArgs e)
+    //    {
+    //        Response.Write("<script>alert('This is test');</script>");
+    //    }
     }
 }

@@ -24,6 +24,7 @@ namespace GreatAssignmentHelp.Account
 
         protected void Page_Load()
         {
+
             if (!IsPostBack)
             {
                 // Determine the sections to render
@@ -55,7 +56,6 @@ namespace GreatAssignmentHelp.Account
             CanRemoveExternalLogins = CanRemoveExternalLogins || accounts.Count() > 1;
             externalLoginsList.DataSource = accounts;
             externalLoginsList.DataBind();
-
         }
 
         protected void setPassword_Click(object sender, EventArgs e)

@@ -15,6 +15,7 @@
     <link runat="server" rel="shortcut icon" href="Images/favicon.png" type="image/x-icon" />
     <link href="~/Content/Site.css" rel="stylesheet" />
     <asp:PlaceHolder runat="server">
+        <script src="Scripts/jquery-1.8.2.js"></script>
         <script src="<%: ResolveUrl("~/Scripts/jquery-1.8.2.js") %>"></script>
     </asp:PlaceHolder>
     <meta name="viewport" content="width=device-width" />
@@ -62,12 +63,12 @@
                             <li>
                                 <a href="Services.aspx" accesskey="2" title="">Services</a>
                                 <ul id="sub-menu">
-                                    <li><a href="/Law.aspx">Law Assignment Help</a></li>
-                                    <li><a href="/Java.aspx">Java Assignment Help</a></li>
-                                    <li><a href="/Marketing.aspx">Marketing Assignment Help</a></li>
-                                    <li><a href="/Computer.aspx">Computer Assignment Help</a></li>
-                                    <li><a href="/Chemistry.aspx">Chemistry Assignment Help</a></li>
-                                    <li><a href="/Programming.aspx">Programming Assignment Help</a></li>
+                                    <li><a href="/law-assignment-help">Law Assignment Help</a></li>
+                                    <li><a href="/java-assignment-help">Java Assignment Help</a></li>
+                                    <li><a href="/marketing-assignment-help">Marketing Assignment Help</a></li>
+                                    <li><a href="/computer-network-assignment-help">Network Assignment Help</a></li>
+                                    <li><a href="/chemistry-assignment-help">Chemistry Assignment Help</a></li>
+                                    <li><a href="/programming-assignment-help">Programming Assignment Help</a></li>
                                 </ul>
                             </li>
                             <li><a href="../Prices.aspx" accesskey="3" title="">Prices</a></li>
@@ -85,8 +86,7 @@
             <section class="content-wrapper main-content clear-fix">
                 <asp:ContentPlaceHolder runat="server" ID="MainContent">                    
                 </asp:ContentPlaceHolder>
-            </section>
-            
+            </section>            
         </div>
         <div id="priceCal">
                 <div class="currency">
@@ -122,10 +122,13 @@
                         <span id="currencyName">USD</span>
                     </div>
                 </div>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                   
+                });
+            </script>
             </div>
-
         <div id="footer-links">
-
             <div class="link-area">
                 <h3 class="H">Greatassignmenthelp.com</h3>
                 <a href="#">About us</a><br />
@@ -141,11 +144,11 @@
 
             <div class="link-area">
                 <h3 class="H">Our Policy</h3>
-                <a href="../ucload.aspx?pn=pp">Privacy Policy</a><br />
-                <a href="../ucload.aspx?pn=tc">Terms & Condition</a><br />
-                <a href="../ucload.aspx?pn=rp">Refund Policy</a><br />
+                <a href="../privacy-policy">Privacy Policy</a><br />
+                <a href="../terms-conditions">Terms & Condition</a><br />
+                <a href="../refund-policy">Refund Policy</a><br />
                 <a href="#">Offers</a><br />
-                <a href="../ucload.aspx?pn=faq">FAQ.</a><br />
+                <a href="../faq">FAQ.</a><br />
                 <a href="#">Blog</a><br />
             </div>
             <div class="link-area">

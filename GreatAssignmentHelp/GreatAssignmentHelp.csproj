@@ -106,13 +106,14 @@
     <Content Include="ErrorPage.aspx" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="StaticPages\macroeconomics-assignment-help.aspx" />
     <Content Include="StaticPages\Services.aspx" />
-    <Content Include="StaticPages\Chemistry.aspx" />
-    <Content Include="StaticPages\Marketing.aspx" />
-    <Content Include="StaticPages\Computer.aspx" />
-    <Content Include="StaticPages\Programming.aspx" />
-    <Content Include="StaticPages\Law.aspx" />
-    <Content Include="StaticPages\Java.aspx" />
+    <Content Include="StaticPages\chemistry-assignment-help.aspx" />
+    <Content Include="StaticPages\marketing-assignment-help.aspx" />
+    <Content Include="StaticPages\network-assignment-help.aspx" />
+    <Content Include="StaticPages\programming-assignment-help.aspx" />
+    <Content Include="StaticPages\law-assignment-help.aspx" />
+    <Content Include="StaticPages\java-assignment-help.aspx" />
     <Content Include="ucload.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Account\Login.aspx" />
@@ -311,7 +312,9 @@
     <Folder Include="Uploaded\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Account\Web.config" />
+    <Content Include="Account\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Site.Master" />
   </ItemGroup>
   <PropertyGroup>

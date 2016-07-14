@@ -38,12 +38,12 @@
         }
     </style>
     <div class="container">
-        <a href="/Law.aspx"><div class="section" data-val="Law">Law Assignment Help</div></a>
-        <a href="/Java.aspx"><div class="section" data-val="Java">Java Assignment Help</div></a>
-        <a href="/Marketing.aspx"><div class="section" data-val="Marketing">Marketing Assignment Help</div></a>
-        <a href="/Computer.aspx"><div class="section" data-val="Computer">Computer Assignment Help</div></a>
-        <a href="/Chemistry.aspx"><div class="section" data-val="Chemistry">Chemistry Assignment Help</div></a>
-        <a href="/Programming.aspx"><div class="section" data-val="Programming">Programming Assignment Help</div></a>
+        <a href="/law-assignment-help.aspx"><div class="section" data-val="Law">Law Assignment Help</div></a>
+        <a href="/java-assignment-help.aspx"><div class="section" data-val="Java">Java Assignment Help</div></a>
+        <a href="/marketing-assignment-help.aspx"><div class="section" data-val="Marketing">Marketing Assignment Help</div></a>
+        <a href="/network-assignment-help.aspx"><div class="section" data-val="Computer">Network Assignment Help</div></a>
+        <a href="/chemistry-assignment-help.aspx"><div class="section" data-val="Chemistry">Chemistry Assignment Help</div></a>
+        <a href="/programming-assignment-help.aspx"><div class="section" data-val="Programming">Programming Assignment Help</div></a>
     </div>
     <script type="text/javascript">
         var elm = document.getElementsByClassName('section');
