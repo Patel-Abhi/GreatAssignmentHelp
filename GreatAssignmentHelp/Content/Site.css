@@ -98,7 +98,7 @@ h5, h6 {
 }
 
 #body {
-    background-color: #efeeef;
+    background-color: #d9edf7;
     clear: both;
     padding-bottom: 35px;
 }
@@ -934,5 +934,8 @@ tr.pager td {
         footer p {
             margin: 0;
         }
+/*contact us---------------------------------------------------------*/
+      
+     
 }
 /* END: Mobile Styles */
