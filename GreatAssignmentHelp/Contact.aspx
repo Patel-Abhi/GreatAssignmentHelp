@@ -2,7 +2,7 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
     <div class="contactt">
         <h1 style="text-align:center;">CONTACT US </h1>
@@ -29,11 +29,11 @@
                     <tr>
                         <td>Email: </td>
                         <td>
-                            <input type="text" name="Email" placeholder="xyz@xyz.com" /></td>
+                            <input type="email" name="Email" placeholder="xyz@xyz.com" /></td>
                     </tr>
                     <tr>
                         <td>Mobile:</td>
-                        <td>
+                        <td> 
                             <input type="number" name="Mobile" placeholder="Mobile" /></td>
                     </tr>
                     <tr>

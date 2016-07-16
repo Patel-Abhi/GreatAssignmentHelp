@@ -24,7 +24,7 @@
 <body>
     <form runat="server">
         <asp:ScriptManager runat="server">
-<%--            <Scripts>
+        <%--<Scripts>
                 <asp:ScriptReference Name="jquery" />
             </Scripts>--%>
         </asp:ScriptManager>
@@ -33,7 +33,7 @@
                 <div class="float-left">
                     <p class="site-title">
                         <a runat="server" href="~/">
-                            <img src="/Images/img-logo.png" style="width: 230px; border: none; position: relative; bottom: 7px;" />
+                            <img src="/Images/img-logo.png" style="width: 230px; border: none; right:10px; position: relative; bottom: 7px;" />
                         </a>
                     </p>
                 </div>
@@ -71,7 +71,7 @@
                                     <li><a href="/programming-assignment-help">Programming Assignment Help</a></li>
                                 </ul>
                             </li>
-                            <li><a href="../Prices.aspx" accesskey="3" title="">Prices</a></li>
+                            <li><a href="../Price" accesskey="3" title="">Prices</a></li>
                             <li><a href="../OrderNow.aspx" accesskey="4" title="">Order Now</a></li>
                             <li><a href="../Blog.aspx" accesskey="5" title="">Blog</a></li>
                             
@@ -90,7 +90,7 @@
         </div>
         <div id="priceCal">
                 <div class="currency">
-                    <span>Currency</span>
+                    <span class="spn-text">Currency</span>
                     <ul class="currency-name">
                         <li class="currencyVal" data-value="15" data-text="USD">USD</li>
                         <li class="currencyVal" data-value="25" data-text="GBP">GBP</li>
@@ -100,7 +100,7 @@
                     </ul>
                 </div>
                 <div class="deadLine">
-                    <span>Deadline</span>
+                    <span class="spn-text">Deadline</span>
                     <ul>
                         <li class="timeDuration" data-value="0">1 Day</li>
                         <li class="timeDuration" data-value="10">2 Days</li>
@@ -124,7 +124,10 @@
                 </div>
             <script type="text/javascript">
                 $(document).ready(function () {
-                   
+                    $('#pageCountInc').click(function () {
+                        var pageNo = parseInt($('#txtPageCount').val());
+                        $('#txtPageCount').val(parseInt(pageNo + 1));
+                    });
                 });
             </script>
             </div>

@@ -300,6 +300,10 @@ ul#menu {
 .currency {
     margin-left: 10%;
 }
+.spn-text{
+    position:relative;
+    left:38px;
+}
 
 .page-words {
     margin-left: 35px;
