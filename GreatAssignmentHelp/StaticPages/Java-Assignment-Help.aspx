@@ -1,6 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" %>
+﻿<%@ Page Title="Java Assignment Help | Java programming help" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+
+<meta name="keywords" content="Java Programming Help, Java Programming Online, Java Programming Assignments, Java Programming Assignment Help, Java Assignment, Java Assignment Help, Help with Java assignment ,java homework help " />
+<meta name="description" content="Great Assignment Help offers Online Java Assignment Help and Java Programming online in Australia and US. Paper will written by US and Australian Java Assignment Experts" />
+     
+<link rel="canonical" href="http://www.greatassignmenthelp.com/java-assignment-help"/>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
 </asp:Content>
@@ -14,6 +20,9 @@
             font-style:italic;
             font-weight:bold;
         }
+p{
+text-align:justify;
+}
     </style>
     <h1>Are you looking for <span class="bold-italic">Java assignment help</span>? We are here to help you with the best <span class="bold-italic">Java assignment help service</span>
     </h1>

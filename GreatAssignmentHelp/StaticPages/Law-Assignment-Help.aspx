@@ -1,6 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" %>
+﻿<%@ Page Title="Law Assignment writing Service | Law Assignment Help" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+
+<meta name="keywords" content=" Assignment Law, Assignment in Law, Law Assignments, Law Assignment Help, Do My Law Assignment, Help with Law Assignment, Business Law Assignments, Homework laws" />
+
+<meta name="description" content=" Are You Looking law assignment writing. Opt for our law assignment help and get it written by professionals." />
+<link rel="canonical" href="http://www.greatassignmenthelp.com/law-assignment-help"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
 </asp:Content>
@@ -14,7 +19,13 @@
             font-style:italic;
             font-weight:bold;
         }
+p{
+text-align:justify;
+}
+
     </style>
+
+
    <h1>
        Are you looking for <span class="bold-italic">Law assignment help</span> for completing your <span class="bold-italic">Law homework</span>
    </h1>

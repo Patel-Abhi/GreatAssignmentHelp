@@ -1,9 +1,15 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" %>
+﻿<%@ Page Title="Chemistry Assignment Help | Chemistry Homework Help" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width" />
+
+<meta name="keywords" content=" Chemistry Homework Help, Chemistry Homework Online, Chemistry Help Online, Online Chemistry Help, Chemistry Assignments, Chemistry Assignments Help, Help with chemistry homework " />  
+<meta name="description" content=" Finding it tough to deal with the complexity of chemistry assignment? Our chemistry assignment help could be an ideal solution." /> 
+    <link rel="canonical" href="http://www.greatassignmenthelp.com/chemistry-assignment-help"/>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
-</asp:Content>
+
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
     <style>
         h1{
@@ -14,6 +20,10 @@
             font-style:italic;
             font-weight:bold;
         }
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
     </style>
     <h1>Do you need help in completing your <span class="bold-italic">Chemistry homework</span>?</h1>
     <p>

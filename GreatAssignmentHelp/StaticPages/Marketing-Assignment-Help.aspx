@@ -1,6 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"%>
+﻿<%@ Page Title="Marketing Assignment Help | Marketing Management Assignments" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"%>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+<meta name="keywords" content="Marketing Assignment, Marketing Assignment Help, Marketing Management Assignment, Help with Marketing Assignment, Marketing Homework Help " />
+<meta name="description" content=" We are offering marketing assignment help for management students who struggling with college assignments at affordable price for UK & US" />
+<link rel="canonical"href="http://www.greatassignmenthelp.com/marketing-assignment-help"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
 </asp:Content>
@@ -14,6 +17,9 @@
             font-style:italic;
             font-weight:bold;
         }
+p{
+text-align:justify;
+}
     </style>
     <h1>Are you in search of <span class="bold-italic">Marketing assignment help service</span> for completing your <span class="bold-italic">Marketing assignment</span>?</h1>
     <p>

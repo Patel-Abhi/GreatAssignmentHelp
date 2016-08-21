@@ -1,6 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" %>
+﻿<%@ Page Title="Computer Network Assignment Help| Networking Assignment Help" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    <meta name="keywords" content="Computer Network Assignment Help, Computer Network homework help, Networking Assignment Help, Computer Network and Communication homework help, Computer Networking assignment help, Packet tracer assignment help " />
+ <meta name="description" content=" Churning out a computer networking assignment doesn’t interest everyone. Go for our computer networking assignment help and relax as experts do it for you." />
+<link rel="canonical" href="http://www.greatassignmenthelp.com/computer-network-assignment-help"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
 </asp:Content>
@@ -14,6 +17,14 @@
             font-style:italic;
             font-weight:bold;
         }
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
     </style>
     <h1>Are you in search of <span class="bold-italic">Computer networks assignments help service</span>? We are here to help you with the best <span class="bold-italic">computer networks assignment help service</span></h1>
     <p>

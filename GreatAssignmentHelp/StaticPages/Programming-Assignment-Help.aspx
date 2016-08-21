@@ -1,6 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"%>
+﻿<%@ Page Title="Programming Help | Programming Assignments | Programming Homework" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"%>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    <meta name="keywords" content=" Programming Assignments, Programming Assignment Help, Programming help online, Online Programming Help, Programming Homework help, Do My Programming Assignment " />
+<meta name="description" content=" Can’t define the tough programming language in the programming assignment? Try our programming assignment help and learn it from experts" />
+    <link rel="canonical" href="http://www.greatassignmenthelp.com/programming-assignment-help"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
 </asp:Content>
@@ -14,6 +17,10 @@
             font-style:italic;
             font-weight:bold;
         }
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
     </style>
     <h1>Are you in need of <span class="bold-italic">programming assignment</span> help for completing your <span class="bold-italic">programming homework</span>?</h1>
     <p>
