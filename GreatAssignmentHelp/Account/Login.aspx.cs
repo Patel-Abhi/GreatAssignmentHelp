@@ -27,9 +27,26 @@ namespace GreatAssignmentHelp.Account
             }
         }
 
+        protected void LogIn(object sender, EventArgs e)
+        {
+            if (IsValid)
+            {
+                cmd = new SqlCommand(HelperClasses.DBConstants.CheckLogin, con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Username", UserName.Text);
+                cmd.Parameters.AddWithValue("@Password", Password.Text);
+                Response.Redirect("/Dashboard.aspx");
+                //else
+                //{
+                //    FailureText.Text = "Invalid username or password.";
+                //    ErrorMessage.Visible = true;
+                //}
+            }
+        }
+
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            string username = ((TextBox)Login1.FindControl("txtUserName")).Text;
+            //string username = ((TextBox)Login1.FindControl("txtUserName")).Text;
             TextBox txtUsername = new TextBox();
                txtUsername= (TextBox)this.Page.FindControl("UserName");
                TextBox txtPassword = (TextBox)this.Page.FindControl("Password");

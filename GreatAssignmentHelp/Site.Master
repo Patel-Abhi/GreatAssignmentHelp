@@ -8,15 +8,17 @@
     <meta name="author" content="href=http://www.greatassignmenthelp.com/" />
     <meta name="Copyright" content="Copyright 2016 @ greatassignmentHelp.com" />
     <meta name="distribution" content="Global" />
-   <link runat="server" rel="shortcut icon" href="Images/favicon.png" type="image/x-icon" />
+    <link runat="server" rel="shortcut icon" href="Images/favicon.png" type="image/x-icon" />
     <link href="~/Content/Site.css" rel="stylesheet" />
-      <asp:PlaceHolder runat="server">
+    <link href="Content/layout.css" rel="stylesheet" />
+    <link href="Content/colors.css" rel="stylesheet" />
+    <asp:PlaceHolder runat="server">
         <script src="<%: ResolveUrl("~/Scripts/jquery-1.8.2.js") %>"></script>
     </asp:PlaceHolder>
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
 
-<script type="application/ld+json">
+    <script type="application/ld+json">
         {
         "@context" : "http://schema.org",
         "@type" : "Organization",
@@ -28,9 +30,9 @@
                 "contactType" : "customer service"
         }]
         }
-        </script>
+    </script>
 
-<script type="application/ld+json">
+    <script type="application/ld+json">
         {
         "@context" : "http://schema.org",
         "@type" : "WebSite",
@@ -38,25 +40,27 @@
         "alternateName" : "GreatAssignmentHelp",
         "url" : "http://www.greatassignmenthelp.com"
         }
-        </script>
+    </script>
 
-<meta name="google-site-verification" content="0jV9R8hS7iZV1QhCAIIVth3ASoOzTHnvzh3NjC-b5mM" />
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <meta name="google-site-verification" content="0jV9R8hS7iZV1QhCAIIVth3ASoOzTHnvzh3NjC-b5mM" />
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-74397745-2', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-74397745-2', 'auto');
+        ga('send', 'pageview');
 
-</script>
+    </script>
 
 </head>
 <body>
     <form runat="server">
         <asp:ScriptManager runat="server">
-<%--            <Scripts>
+            <%--            <Scripts>
                 <asp:ScriptReference Name="jquery" />
             </Scripts>--%>
         </asp:ScriptManager>
@@ -90,7 +94,7 @@
                     </section>
                     <nav id="primary_nav_wrap">
                         <ul id="menu">
-                            <li  class="current-menu-item"><a runat="server" href="~/">Home</a></li>
+                            <li class="current-menu-item"><a runat="server" href="~/">Home</a></li>
                             <li><a runat="server" href="About.aspx">About Us</a></li>
                             <li>
                                 <a href="Services.aspx" accesskey="2" title="">Services</a>
@@ -111,7 +115,7 @@
                             <li><a href="../Prices.aspx" accesskey="3" title="">Prices</a></li>
                             <li><a href="../OrderNow.aspx" accesskey="4" title="">Order Now</a></li>
                             <li><a href="../Blog" accesskey="5" title="">Blog</a></li>
-                            
+
                             <li><a runat="server" href="~/Contact">Contact Us</a></li>
                         </ul>
                     </nav>
@@ -121,50 +125,50 @@
         <div id="body">
             <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
             <section class="content-wrapper main-content clear-fix">
-                <asp:ContentPlaceHolder runat="server" ID="MainContent">                    
+                <asp:ContentPlaceHolder runat="server" ID="MainContent">
                 </asp:ContentPlaceHolder>
-            </section>            
+            </section>
         </div>
         <div id="priceCal">
-                <div class="currency">
-                    <span>Currency</span>
-                    <ul class="currency-name">
-                        <li class="currencyVal" data-value="15" data-text="USD">USD</li>
-                        <li class="currencyVal" data-value="25" data-text="GBP">GBP</li>
-                        <li class="currencyVal" data-value="35" data-text="AUD">AUD</li>
-                        <li class="currencyVal" data-value="45" data-text="SGD">SGD</li>
-                        <li class="currencyVal" data-value="55" data-text="NZD">NZD</li>
-                    </ul>
+            <div class="currency">
+                <span>Currency</span>
+                <ul class="currency-name">
+                    <li class="currencyVal" data-value="15" data-text="USD">USD</li>
+                    <li class="currencyVal" data-value="25" data-text="GBP">GBP</li>
+                    <li class="currencyVal" data-value="35" data-text="AUD">AUD</li>
+                    <li class="currencyVal" data-value="45" data-text="SGD">SGD</li>
+                    <li class="currencyVal" data-value="55" data-text="NZD">NZD</li>
+                </ul>
+            </div>
+            <div class="deadLine">
+                <span>Deadline</span>
+                <ul>
+                    <li class="timeDuration" data-value="0">1 Day</li>
+                    <li class="timeDuration" data-value="10">2 Days</li>
+                    <li class="timeDuration" data-value="20">3 Days</li>
+                    <li class="timeDuration" data-value="30">4-6 Days</li>
+                    <li class="timeDuration" data-value="40">7-10 Days</li>
+                    <li class="timeDuration" data-value="50">>10 Days</li>
+                </ul>
+            </div>
+            <div class="page-words">
+                <div class="page-count">
+                    <p>Pages</p>
+                    <span id="pageCountDesc"><b>&ndash;</b></span>
+                    <input type="number" id="txtPageCount" min="1" />
+                    <span id="pageCountInc"><b>+</b></span>
                 </div>
-                <div class="deadLine">
-                    <span>Deadline</span>
-                    <ul>
-                        <li class="timeDuration" data-value="0">1 Day</li>
-                        <li class="timeDuration" data-value="10">2 Days</li>
-                        <li class="timeDuration" data-value="20">3 Days</li>
-                        <li class="timeDuration" data-value="30">4-6 Days</li>
-                        <li class="timeDuration" data-value="40">7-10 Days</li>
-                        <li class="timeDuration" data-value="50">>10 Days</li>
-                    </ul>
+                <div class="approx-price">
+                    <p id="estPrice">Approx Price: </p>
+                    <span id="currencyName">USD</span>
                 </div>
-                <div class="page-words">
-                    <div class="page-count">
-                        <p>Pages</p>
-                        <span id="pageCountDesc"><b>&ndash;</b></span>
-                        <input type="number" id="txtPageCount" min="1" />
-                        <span id="pageCountInc"><b>+</b></span>
-                    </div>
-                    <div class="approx-price">
-                        <p id="estPrice">Approx Price: </p>
-                        <span id="currencyName">USD</span>
-                    </div>
-                </div>
+            </div>
             <script type="text/javascript">
                 $(document).ready(function () {
-                   
+
                 });
             </script>
-            </div>
+        </div>
         <div id="footer-links">
             <div class="link-area">
                 <h3 class="H">Greatassignmenthelp.com</h3>
@@ -198,37 +202,43 @@
             <div class="link-area">
                 <h3 class="H">Services</h3>
                 <a href="#">Management Assignment</a><br />
-                <a href="#">Law Assignment </a><br />
+                <a href="#">Law Assignment </a>
+                <br />
                 <a href="#">Care-studies</a><br />
-                <a href="#">HR Assignment </a><br />
+                <a href="#">HR Assignment </a>
+                <br />
                 <a href="#">Marketing Assignment</a><br />
-                <a href="#">Chemestry Assignment </a><br />
-                <a href="#">Math Assignment </a><br />
-                <a href="#">Essay Writing </a><br />
+                <a href="#">Chemestry Assignment </a>
+                <br />
+                <a href="#">Math Assignment </a>
+                <br />
+                <a href="#">Essay Writing </a>
+                <br />
             </div>
         </div>
         <footer>
-<div itemscope itemtype="http://schema.org/Product">
-   <span itemprop="name">Assignment Help</span>
-   <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-     Rated <span itemprop="ratingValue">4.8</span>/5 based on <span itemprop="reviewCount">12547</span> reviews
-</div>
-            <p style="letter-spacing: 1px; font-size: 0.90em; color: rgba(255,255,255,0.6)">&copy;<%=System.DateTime.Now.Year.ToString() %>. All rights reserved. | <a href="http://www.greatassignmenthelp.com">GreatAssignmentHelp.com</a></p>
+            <div itemscope itemtype="http://schema.org/Product">
+                <span itemprop="name">Assignment Help</span>
+                <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    Rated <span itemprop="ratingValue">4.8</span>/5 based on <span itemprop="reviewCount">12547</span> reviews
+                </div>
+                <p style="letter-spacing: 1px; font-size: 0.90em; color: rgba(255,255,255,0.6)">&copy;<%=System.DateTime.Now.Year.ToString() %>. All rights reserved. | <a href="http://www.greatassignmenthelp.com">GreatAssignmentHelp.com</a></p>
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/579648b892a0df3b7f409cf7/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+                <!--Start of Tawk.to Script-->
+                <script type="text/javascript">
+                    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+                    (function () {
+                        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                        s1.async = true;
+                        s1.src = 'https://embed.tawk.to/579648b892a0df3b7f409cf7/default';
+                        s1.charset = 'UTF-8';
+                        s1.setAttribute('crossorigin', '*');
+                        s0.parentNode.insertBefore(s1, s0);
+                    })();
+                </script>
+                <!--End of Tawk.to Script-->
         </footer>
+        
     </form>
 </body>
 </html>

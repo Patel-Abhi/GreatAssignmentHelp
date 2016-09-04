@@ -103,10 +103,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\colors.css" />
+    <Content Include="Content\layout.css" />
+    <Content Include="Dashboard.aspx" />
     <Content Include="ErrorPage.aspx" />
+    <Content Include="OrderNow.aspx" />
+    <Content Include="Price.aspx" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="StaticPages\assignment-expert-help.aspx" />
+    <Content Include="StaticPages\finance-assignment-help.aspx" />
+    <Content Include="StaticPages\homework-help.aspx" />
     <Content Include="StaticPages\macroeconomics-assignment-help.aspx" />
+    <Content Include="StaticPages\project-management-assignment-help.aspx" />
     <Content Include="StaticPages\Services.aspx" />
     <Content Include="StaticPages\chemistry-assignment-help.aspx" />
     <Content Include="StaticPages\marketing-assignment-help.aspx" />
@@ -262,6 +271,13 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -283,6 +299,20 @@
     <Compile Include="HelperClasses\Cryptograph.cs" />
     <Compile Include="HelperClasses\DBConstants.cs" />
     <Compile Include="HelperClasses\MailSender.cs" />
+    <Compile Include="OrderNow.aspx.cs">
+      <DependentUpon>OrderNow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderNow.aspx.designer.cs">
+      <DependentUpon>OrderNow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Price.aspx.cs">
+      <DependentUpon>Price.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Price.aspx.designer.cs">
+      <DependentUpon>Price.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
