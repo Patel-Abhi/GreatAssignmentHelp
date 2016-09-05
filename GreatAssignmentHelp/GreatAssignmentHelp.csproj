@@ -107,6 +107,7 @@
     <Content Include="Content\layout.css" />
     <Content Include="Dashboard.aspx" />
     <Content Include="ErrorPage.aspx" />
+    <Content Include="order-confirm.aspx" />
     <Content Include="OrderNow.aspx" />
     <Content Include="Price.aspx" />
     <Content Include="Scripts\jquery-1.8.2.js" />
@@ -299,6 +300,13 @@
     <Compile Include="HelperClasses\Cryptograph.cs" />
     <Compile Include="HelperClasses\DBConstants.cs" />
     <Compile Include="HelperClasses\MailSender.cs" />
+    <Compile Include="order-confirm.aspx.cs">
+      <DependentUpon>order-confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="order-confirm.aspx.designer.cs">
+      <DependentUpon>order-confirm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="OrderNow.aspx.cs">
       <DependentUpon>OrderNow.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
