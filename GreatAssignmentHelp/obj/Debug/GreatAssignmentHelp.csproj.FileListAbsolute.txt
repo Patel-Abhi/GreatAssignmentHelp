@@ -84,3 +84,33 @@ D:\MyProject\gr8-assgn-hlp\GreatAssignmentHelp\bin\Microsoft.AspNet.FriendlyUrls
 D:\MyProject\gr8-assgn-hlp\GreatAssignmentHelp\obj\Debug\GreatAssignmentHelp.csprojResolveAssemblyReference.cache
 D:\MyProject\gr8-assgn-hlp\GreatAssignmentHelp\obj\Debug\GreatAssignmentHelp.dll
 D:\MyProject\gr8-assgn-hlp\GreatAssignmentHelp\obj\Debug\GreatAssignmentHelp.pdb
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\GreatAssignmentHelp.dll.config
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\GreatAssignmentHelp.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\GreatAssignmentHelp.pdb
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\AspNet.ScriptManager.jQuery.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\DotNetOpenAuth.AspNet.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\DotNetOpenAuth.Core.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\DotNetOpenAuth.OAuth.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\DotNetOpenAuth.OpenId.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\EntityFramework.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\Microsoft.Web.Infrastructure.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\System.Web.Providers.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\System.Net.Http.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\EntityFramework.xml
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\DotNetOpenAuth.Core.xml
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\DotNetOpenAuth.OAuth.xml
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\DotNetOpenAuth.OpenId.xml
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\DotNetOpenAuth.AspNet.xml
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\bin\System.Net.Http.xml
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\obj\Debug\GreatAssignmentHelp.csprojResolveAssemblyReference.cache
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\obj\Debug\GreatAssignmentHelp.dll
+D:\my-projects\Dot Net\gr8-assgn-hlp\GreatAssignmentHelp\obj\Debug\GreatAssignmentHelp.pdb

@@ -198,8 +198,10 @@
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Great.pubxml" />
     <Content Include="UserControls\faq.ascx" />
+    <Content Include="UserControls\order-step2.ascx" />
     <Content Include="UserControls\refund_policy.ascx" />
     <Content Include="UserControls\privacy_policy.ascx" />
+    <Content Include="UserControls\order-step1.ascx" />
     <Content Include="UserControls\TC.ascx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config">
