@@ -103,12 +103,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\colors.css" />
-    <Content Include="Content\layout.css" />
     <Content Include="Dashboard.aspx" />
     <Content Include="ErrorPage.aspx" />
     <Content Include="order-confirm.aspx" />
-    <Content Include="OrderNow.aspx" />
+    <Content Include="OrderNow2.aspx" />
+    <Content Include="OrderNow1.aspx" />
     <Content Include="Price.aspx" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -198,10 +197,8 @@
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Great.pubxml" />
     <Content Include="UserControls\faq.ascx" />
-    <Content Include="UserControls\order-step2.ascx" />
     <Content Include="UserControls\refund_policy.ascx" />
     <Content Include="UserControls\privacy_policy.ascx" />
-    <Content Include="UserControls\order-step1.ascx" />
     <Content Include="UserControls\TC.ascx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config">
@@ -309,12 +306,19 @@
     <Compile Include="order-confirm.aspx.designer.cs">
       <DependentUpon>order-confirm.aspx</DependentUpon>
     </Compile>
-    <Compile Include="OrderNow.aspx.cs">
-      <DependentUpon>OrderNow.aspx</DependentUpon>
+    <Compile Include="OrderNow2.aspx.cs">
+      <DependentUpon>OrderNow2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="OrderNow.aspx.designer.cs">
-      <DependentUpon>OrderNow.aspx</DependentUpon>
+    <Compile Include="OrderNow2.aspx.designer.cs">
+      <DependentUpon>OrderNow2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderNow1.aspx.cs">
+      <DependentUpon>OrderNow1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderNow1.aspx.designer.cs">
+      <DependentUpon>OrderNow1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Price.aspx.cs">
       <DependentUpon>Price.aspx</DependentUpon>
